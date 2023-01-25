@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  padding: 3px;
+  margin: 3px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body{
+ background-color: rgb(162, 162, 237); 
+ padding: 0px;
+ margin: 0px;
+ 
+ overflow-x: hidden;
+}
+.buttonIn {
+width: 80%;
+position: absolute;
+left: 130px;
+}
+input{
+height: 50px;
+}
+@media only screen and (max-width:900px) {
+.buttonIn {
+width: 100%;
+position: relative;
+left: 0px;
+}
+.Todo{
+  height: fit-content;
+  background-color: white;
+  padding: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size:5%;
+  width: auto;
   }
+.row{
+margin: 0px;
+padding: 0px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.addBtn {
+position: absolute;
+border-radius: 5px;
+right: 18px;
+z-index: 2;
+border: none;
+top: 7px;
+height: 40px;
+width: 50px;
+cursor: pointer;
+color: white;
+background-color: #1e90ff;
+transform: translateX(2px);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#read{
+position: absolute;
+border-radius: 5px;
+right: 18px;
+z-index: 2;
+border: none;
+top: 15px;
+font-weight: 600;
+height: 40px;
+width: 50px;
+cursor: pointer;
+color: white;
+background-color:transparent;
+transform: translateX(2px);
+}
+#read img{
+  width:30px;
+  height:30px;
+}
+.todoLists{
+background-color: azure;
+display: flex;
+position: absolute;
+margin-left: 15%;
+}
+.Todo{
+height: fit-content;
+width: 100%;
+background-color: white;
+padding: 15px;
+border-radius: 6px;
+cursor: pointer;
+font-size: 15px;
+max-width: 100%;
+box-sizing: border-box;
+}
+#read{
+background-color: transparent !important;
 }
