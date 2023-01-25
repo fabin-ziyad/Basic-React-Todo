@@ -1,3 +1,6 @@
+## HOME VIEW
+<img width="960" alt="home" src="https://user-images.githubusercontent.com/83161513/214486946-93130ffc-995b-482b-b2b0-c213731d5645.png">
+
 # Getting Started with Create React App
 
 Clone this repository and open terminal,then run [npm install].
